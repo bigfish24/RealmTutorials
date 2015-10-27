@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'GridViewExample' do
+  pod 'ABFRealmGridController'
+
+  # Pre-built data model for New York Times Top Stories API
+  pod 'RealmNYTStories'
+
+  # Image loading/caching library
+  pod 'Haneke'
+
+  # Easy UIViewController to display website
+  pod 'TOWebViewController'
+end
+

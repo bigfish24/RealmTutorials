@@ -1,0 +1,18 @@
+use_frameworks!
+
+target 'GridViewExample' do
+
+pod 'RealmGridController'
+
+# Pre-built data model for New York Times Top Stories API
+pod 'RealmSwiftNYTStories'
+
+# Image loading/caching library
+pod 'HanekeSwift'
+
+# Easy UIViewController to display website
+pod 'TOWebViewController'
+
+
+end
+

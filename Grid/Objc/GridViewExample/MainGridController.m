@@ -86,7 +86,7 @@ static NSString * const reuseIdentifier = @"mainCell";
 - (IBAction)didClickRefreshButton:(UIBarButtonItem *)sender
 {
     [NYTStory loadLatestStoriesIntoRealm:[RLMRealm defaultRealm]
-                              withAPIKey:@"388ce6e70d2a8e825757af7a0a67c397:13:59285541"];
+                              withAPIKey:@"INSERT_YOUR_API_KEY_HERE"];
 }
 
 @end

@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'MapViewExample' do
+  pod 'RealmMapView'
+
+  # Map data set
+  pod 'RealmSwiftSFRestaurantData'
+end
+
